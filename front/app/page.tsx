@@ -17,6 +17,8 @@ export default function Home() {
   const [loading, setLoading] = useState<boolean>(false);
 
   const handleClick = () => {
+    const url = process.env.BACKEND + ":3002/chat"
+    console.log(url+ "-------------------------------------------------------------------------------------------")
     if (message == "") return;
     setHistory((oldHistory) => [
       ...oldHistory,
