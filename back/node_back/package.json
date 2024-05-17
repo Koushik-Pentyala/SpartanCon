@@ -1,0 +1,40 @@
+{
+    "name": "your-project-name",
+    "version": "1.0.0",
+    "description": "Your project description",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Your Name",
+    "license": "MIT",
+    "devDependencies": {
+        "nodemon": "^2.0.7"
+    },
+    "dependencies": {
+        "@pinecone-database/pinecone": "^2.2.0",
+        "@types/node": "20.4.10",
+        "@types/react": "18.2.20",
+        "@types/react-dom": "18.2.7",
+        "autoprefixer": "10.4.14",
+        "clsx": "^2.0.0",
+        "cookie-parser": "^1.4.6",
+        "cors": "^2.8.5",
+        "debug": "^4.3.4",
+        "dotenv": "^16.4.5",
+        "express": "^4.17.1",
+        "follow-redirects": "^1.15.2",
+        "langchain": "^0.1.30",
+        "latest": "^0.2.0",
+        "next": "13.4.13",
+        "pinecone-client": "^2.0.0",
+        "postcss": "8.4.27",
+        "react": "18.2.0",
+        "react-dom": "18.2.0",
+        "react-feather": "^2.0.10",
+        "supports-color": "^8.1.1",
+        "tailwindcss": "3.3.3",
+        "typescript": "5.1.6"
+    }
+}
